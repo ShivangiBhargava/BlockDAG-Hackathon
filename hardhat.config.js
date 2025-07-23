@@ -15,7 +15,7 @@ module.exports = {
   networks: {
     // BlockDAG Testnet Configuration
     blockdag_testnet: {
-      url: "https://rpc-testnet.blockdag.network",
+      url: "https://rpc.primordial.bdagscan.com",
       chainId: 8081,
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
       gas: 8000000,
